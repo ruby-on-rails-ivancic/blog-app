@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd;
+    background-color: #fff0ce;
     font-family: system-ui, sans-serif;
     color: #333;
 }
@@ -9,7 +9,10 @@ body {
 header {
     background-color: #ff8c00;
     color: white;
+    height: 50px;
     padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);  
 }
 
 footer {
@@ -23,4 +26,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    font-weight: bold;
 }

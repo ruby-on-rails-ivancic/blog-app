@@ -1,17 +1,23 @@
-<h1>Articles</h1>
 
-Our blog has <%= Article.public_count %> articles and counting!
+<div class="index-title">
+    <h1>Articles</h1>
+    <p>Our blog has <%= Article.public_count %> articles and counting!</p>
+</div>
 
-<ul>
+
+<div class="article-list flex-center">
     <% @articles.each do |article| %>
         <% unless article.archived? %>
-            <li>
-                <%= link_to article.title, article %>
-            </li>
+            <div class="article-card flex-center">
+                <%= link_to article.title, article, class: "article_title" %>
+                <p><%= truncate(article.body, length: 200) %></p>
+            </div>
         <% end %>
     <% end %>
-</ul>
+    <%= link_to "New Article", new_article_path, class: "new-article" %>
+</div>
 
-<%= link_to "New Article", new_article_path %>
+
+
 
 

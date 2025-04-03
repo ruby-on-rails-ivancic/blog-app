@@ -1,0 +1,19 @@
+.show-container {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.article-edit-options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.9rem;
+}
