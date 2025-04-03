@@ -9,5 +9,9 @@
  * Consider organizing styles into separate files for maintainability.
  */
  @import "base/layout";
- @import "./pages/article_show";
- @import "./pages/articles_index";
+ @import "pages/article_show";
+ @import "pages/articles_index";
+ @import "pages/article_edit";
+ @import "components/comment.css";
+ @import "components/comment_form.css";
+ @import "components/edit_form.css";

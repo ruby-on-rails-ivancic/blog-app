@@ -38,3 +38,7 @@ a {
 a:hover {
     font-weight: bold;
 }
+
+textarea {
+    resize: vertical;
+}

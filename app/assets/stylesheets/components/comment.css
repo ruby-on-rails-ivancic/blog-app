@@ -1,0 +1,27 @@
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.comment-card p, h3 {
+    margin: 0;
+}
+
+.comment-card h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.comment-card p {
+    font-size: 1rem;
+}
+
+.comment-card a {
+    font-size: 0.7rem;
+}
